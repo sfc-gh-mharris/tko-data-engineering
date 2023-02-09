@@ -8,7 +8,7 @@
 # SNOWFLAKE ADVANTAGE: Snowpark Python programmability
 # SNOWFLAKE ADVANTAGE: Python UDFs (with third-party packages)
 # SNOWFLAKE ADVANTAGE: SnowCLI (PuPr)
-# comment to commit
+# comment to commitajdasdsldfsdfsdh
 
 import sys
 
