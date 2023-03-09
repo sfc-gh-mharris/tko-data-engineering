@@ -90,7 +90,7 @@ def create_pos_view(session):
                             F.col("ORDER_TAX_AMOUNT"), \
                             F.col("ORDER_DISCOUNT_AMOUNT"), \
                             F.col("ORDER_TOTAL"))
-    final_df.create_or_replace_view('POS_FLATTENED_V')
+    final_df.create_or_replace_view('POS_FLATTENED_V') #### <--- create view
 
 def create_pos_view_stream(session):
     session.use_schema('HARMONIZED')
@@ -117,6 +117,6 @@ if __name__ == "__main__":
 
     create_pos_view(session)
     create_pos_view_stream(session)
-#    test_pos_view(session)
+    test_pos_view(session)
 
     session.close()
